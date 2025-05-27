@@ -1,0 +1,11 @@
+@import url('./fonts/inter.css');
+@import url('./blocks/page.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/headline.css');
+@import url('./blocks/sample.css');
+@import url('./blocks/platform.css');
+@import url('./blocks/story.css');
+@import url('./blocks/goals.css');
+@import url('./blocks/action.css');
+@import url('./blocks/footer.css');
