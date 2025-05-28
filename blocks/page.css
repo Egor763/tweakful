@@ -30,6 +30,10 @@
   margin: 145px 0 146px;
 }
 
+.main__platform {
+  margin: 111px 0;
+}
+
 .hover__link:hover {
   opacity: 0.8;
   cursor: pointer;
