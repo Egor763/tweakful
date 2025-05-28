@@ -17,6 +17,11 @@
   padding: 21px 0 44px;
 }
 
-.page__headline {
-  margin: 145px 0 146px;
+.hover__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.page__header {
+  margin-bottom: 20px;
 }
