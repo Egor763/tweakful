@@ -34,6 +34,14 @@
   margin: 111px 0;
 }
 
+.main__goals {
+  margin: 179px 0 161px;
+}
+
+.main__action {
+  margin-bottom: 168px;
+}
+
 .hover__link:hover {
   opacity: 0.8;
   cursor: pointer;
