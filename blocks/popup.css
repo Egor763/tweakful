@@ -1,0 +1,91 @@
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.popup__active {
+  display: flex;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+
+.popup__container {
+  width: 430px;
+  height: 330px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.close__button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: transparent;
+  border: none;
+}
+
+.close__button-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.popup__title {
+  width: 330px;
+  margin: 34px 0 54px;
+  align-self: flex-start;
+  margin-left: 36px;
+  line-height: 23px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.popup__form {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup__input {
+  all: unset;
+  width: 358px;
+  height: 27px;
+  margin-bottom: 30px;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 13px;
+}
+
+.popup__button {
+  width: 358px;
+  height: 50px;
+  margin: 18px 0 37px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #000000;
+  border: none;
+  color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
